@@ -1,0 +1,19 @@
+<template name="calendar_events">
+	<div class="calendar_events">
+	 	{{#each calendar.items}}
+			<div class="event">
+				<div>
+					<span>start:&nbsp;{{start.date}}&nbsp;-end:&nbsp;{{end.date}}</span>
+				</div>
+				<div>
+					<span class="summary">{{summary}}</span>
+				</div>
+				{{#if extendedProperties.shared.wt_hoursWorked}}
+					<div>
+						<span>Hours worked: {{extendedProperties.shared.wt_hoursWorked}}</span>
+					</div>
+				{{/if}}
+			</div>
+		{{/each}}
+	</div>
+</template>

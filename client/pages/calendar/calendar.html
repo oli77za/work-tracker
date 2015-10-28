@@ -1,0 +1,12 @@
+<template name="calendar">
+	<div class="calendar">
+		{{>calendar_events}}
+	</div>
+	{{>contentFor region="left_col" template="calendar_sidebar"}}
+</template>
+
+<template name="calendar_sidebar" >
+	<div class=".calendar_sidebar">
+		{{>calendars_list}}
+	</div>
+</template>
