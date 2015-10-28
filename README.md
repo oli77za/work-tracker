@@ -26,7 +26,7 @@ This is a simple meteor project that I started to get grips with this framework
 
 ## Credits ##
 
-Thanks to Alessio for helping and showing me the ropes of Meteor :)
+Thanks to [Alessio](https://github.com/cuginoAle) for helping and showing me the ropes of Meteor :)
 
 ## License ##
 
