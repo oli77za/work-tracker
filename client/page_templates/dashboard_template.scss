@@ -1,0 +1,19 @@
+.dashboard_template {
+	$mainContentHeight:59px;
+
+	height: 100vh;
+	background-color: $lightBlue20;
+
+	>#page_content {        
+		@include clearfix;
+		height: calc(100% - #{$mainContentHeight});
+		box-shadow: 0 0 5px #000;
+
+		>.left_col {
+			height: 100%;
+			width: 300px;
+			float: left;
+			background-color: aqua;
+		}
+	}
+}

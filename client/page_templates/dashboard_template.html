@@ -1,0 +1,15 @@
+<template name="dashboard_template">
+	<div class="dashboard_template">
+		<header>
+			{{>main_navbar}}
+		</header>
+		<div id="page_content">
+			<div class="left_col">
+				{{> yield region='left_col'}}
+			</div>
+			<div class="right_col">
+				{{>yield}}
+			</div>
+		</div>
+	</div> 
+</template>

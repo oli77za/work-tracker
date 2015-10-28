@@ -1,0 +1,43 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 100%;
+    color: $black10;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border:none;
+    background-color: transparent;
+    display: inline-block;    
+}
+
+button,
+input {
+    outline: none;
+}
+
+input {
+    border-radius: 3px;
+    border:1px solid $grey; 
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 1.2em;
+}

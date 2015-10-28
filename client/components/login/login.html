@@ -1,0 +1,9 @@
+<template name="login">
+	<div class="login">
+		{{> loginButtons align="right"}}
+
+		{{#if userPicture}}
+			<img class="avatar" src="{{userPicture}}" alt="avatar" />
+		{{/if}}
+	</div>
+</template>

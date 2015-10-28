@@ -1,0 +1,15 @@
+<template name="calendars_list">
+	<div class="calendars_list">
+		<ul>
+			{{#each calendars}}		
+				<li>
+					{{#if validCalendar this}}
+					<div class="calendar_card">
+						<a href="{{pathFor 'calendar' calendarId=this.id}}">{{this.summary}}</a>
+					</div>
+					{{/if}}
+				</li>
+			{{/each}}
+		</ul>
+	</div>
+</template>
